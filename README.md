@@ -1,10 +1,13 @@
 # newportfolio
-Description: my portfolio
-Technologies:
+# Description: 
+my portfolio
+# Technologies:
 HTML
 CSS
 PURECSS
 BOOTSTRAP
 
-Deployed link:
-Screenshot:[assets/screenshot.png]
+# Deployed link:
+"https://aminbouzouita.github.io/newportfolio/."
+# Screenshot:
+[assets/screenshot.png]
