@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    <title>Amin Bouzouita</title>
+    <link rel="stylesheet" href="/css/pure/pure-min.css">
+    <link rel="stylesheet" href="/css/pure/grids-responsive-min.css">
+    <link rel="stylesheet" href="/layouts/blog/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <nav class="navbar justify-content-end"> 
+            <div class="col-2 nav-links">
+                <a class="nav-link" id="index" href="index.html">Home</a>
+                <a class="nav-link" id="portfolio" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" id="contact" href="contact.html">Contact</a>
+            </div>
+            </nav>
+        </div>
+        <div id="layout" class="pure-g">
+            <div class="sidebar pure-u-1 pure-u-md-1-4">
+                <div class="header">
+                    <img src="assets/pic2.jpg" class="rounded-circle">
+                    <h1 class="brand-title">Amin Bouzouita</h1>
+                    <h2 class="brand-tagline">Full Stack Web Developper</h2>
+                    <p><img src="assets/icons_calendar_-_check_mark.png"id="logocal">February 21,1990</p>
+                    <p>Orange County,California</p>
+                        <div class="nav-item">
+                            <a href="mailto:aminbouzouita@yahoo.com" target="-blank"><button type="submit" class="btn btn-primary" id="emailbtn">Email me</button></a>
+                        </div>
+                </div>
+            </div>
+            <div class="content pure-u-1 pure-u-md-3-4">
+               
+                <div class="posts">
+                    <h1 class="content-subhead">Contact</h1>
+                    <section class="post">
+                        <header class="post-header">
+                            <h2 class="post-title">Contact</h2>
+                        </header>
+                        <div class="contact-form post-description">
+                            <form>
+                                <div class="row">
+                                  <div class="form-group col-md-12">
+                                       <label for="inputName">Name</label>
+                                       <input type="text" class="form-control" id="nameform" placeholder="John Smith">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="form-group col-md-12">
+                                    <label for="inputEmai">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="example@gmail.com">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                          <label for="inputMessage">Message</label>
+                                          <input type="text" class="form-control" placeholder="" id="message-space">
+                                    </div>
+                                </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                <div class="posts more-contact">
+                                        <h1 class="content-subhead">More Contact</h1>
+                                    <section class="post">
+                                        <div class="contact-form post-description">
+                                            <a href="https://github.com/Aminbouzouita" target="-blank"> <img alt="" class="img-contact" src="assets/25231.png"></a>
+                                            <a href="tel:001-714-329-3765"> <img alt="" class="img-contact" src="assets/844e8cd4ab26c82286238471f0e5a901.png"></a>
+                                            <a href="mailto:aminbouzouita@yahoo.com" target="-blank"> <img alt="" class="img-contact" src="assets/8fc37b74b608a622588fbaa361485f32.png"></a>
+                                            <a href="https://www.linkedin.com/in/amin-bouzouita-53bb911aa/" target="-blank"> <img alt="" class="img-contact" src="assets/ce093c7214ad357bb665cfd2f66a8b6b.png"></a>
+                                        </div>
+                                    </section>
+                                </div>
+                            </form>
+                        </div>   
+                    </section>
+                </div>
+                <div class="footer">
+                    <div class="pure-menu pure-menu-horizontal">
+                        <p class="text-footer">Copyright &copy; 2020 Amin Bouzouita</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>
