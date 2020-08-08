@@ -1,0 +1,143 @@
+body{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* navbar */
+.nav-links{
+    display: -webkit-inline-box;
+    font-size: 20px;
+}
+.sidebar {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background: rgb(61, 79, 93);
+    color: #fff;
+}
+.header {
+    margin: 45% 2em 0;
+}
+.rounded-circle{
+    height:200px;
+    width:160px;
+}
+#logocal{
+    height: 25px;
+    width: 25px;
+}
+/* page content */
+.content {
+    padding: 2em 3em 0;
+    margin-left: 25%;
+}
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
+}
+h3 {
+    font-weight: 100;
+}
+
+.posts{
+    margin-left: 30px;
+}
+
+.brand-tagline {
+    font-weight: 300;
+    color: rgb(176, 202, 219);
+}
+.nav-item a:hover,
+.nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+.content-subhead {
+    text-transform: uppercase;
+    color: #aaa;
+    border-bottom: 1px solid #eee;
+    padding: 0.4em 0;
+    font-size: 80%;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.post {
+    padding-bottom: 2em;
+}
+.post-title {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 0.2em;
+}
+
+.post-description {
+    font-family: Georgia, "Cambria", serif;
+    color: #444;
+    line-height: 1.8em;
+}
+/* footer */
+.footer {
+    text-align: center;
+    padding: 1em 0;
+}
+.footer a {
+    color: #ccc;
+    font-size: 80%;
+}
+.footer .pure-menu a:hover,
+.footer .pure-menu a:focus {
+    background: none;
+}
+
+/* about page */
+.skills{
+    text-align: center;
+}
+.img-skills{
+    height:200px;
+    width:210px;
+}
+/* portfolio page */
+.img-portfolio{
+    margin-bottom: 30px;
+    height: 380px;
+    width: 600px;
+    border-radius: 15px;
+}
+/* contact page */
+.more-contact{
+    margin-top: 50px;
+     text-align: center;
+}
+#message-space {
+    height: 170px ;
+    }
+.img-contact{
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}   
+
+
+/* @media (min-width: 48em) {
+    .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+
+    .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+
+    .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+
+    .footer {
+        text-align: center;
+    }
+} */
