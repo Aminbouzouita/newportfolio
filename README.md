@@ -14,4 +14,4 @@
 [https://aminbouzouita.github.io/newportfolio/]
 
 ## Screenshot:
-[assets/screenshot.png]
+[Screenshot][assets/screenshot.png]
