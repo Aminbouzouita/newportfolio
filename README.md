@@ -13,7 +13,7 @@ BOOTSTRAP
 * [BOOTSTRAP](#BOOTSTRAP)
 
 ## Deployed link:
-(https://aminbouzouita.github.io/newportfolio/)
+https://aminbouzouita.github.io/newportfolio/
 
 ## Screenshot:
-(assets/screenshot.png)
+[Screenshot](assets/screenshot.png)
